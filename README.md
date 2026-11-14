@@ -1,5 +1,7 @@
 # Business Data Automation Toolkit
 
+[Project 2 · Customer Service Ticket API](Project%202%20Customer%20Service%20Ticket%20API/README.md) covers the browser ticket queue, SLA tracking, and audit history.
+
 Validate CSV and JSON order-line exports before reconciliation. The order operations lead uses the batch decision to approve or hold a release. The analyst receives normalized order values and source references for exceptions.
 
 The supplied mixed-format batch was **held** after the toolkit quarantined 4 of 12 rows. The corrected batch **passed** with 11 accepted rows and zero rejections. Both report bundles passed checksum verification. [Measurements and bundle locations](evidence/2026-11-14/measurements.json)
