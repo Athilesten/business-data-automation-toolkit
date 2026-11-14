@@ -1,0 +1,25 @@
+{
+  "artifact_sha256": {
+    "accepted.csv": "879391ce6eed20888597e1c73bb7128e5edd92af8d9af5e420956293b70443ab",
+    "exceptions.csv": "4ee1ffa1a7f9ef6f3671effa5e0292131801bdfd97528f11c0eee1d53c6fb779",
+    "quality.json": "cefc9b8407ab2e8a4b25ff65be349972a8f55b45fb9a979868a615179290e56a"
+  },
+  "inputs": [
+    {
+      "bytes": 323,
+      "format": "csv",
+      "sha256": "ddd8ca2ad875f91d084173aae11803fdfb8bf65b5d6138719656978be44384de",
+      "source_id": "S01"
+    },
+    {
+      "bytes": 481,
+      "format": "json",
+      "sha256": "cf0688bb27a9be3aff908141f681705ff7871a8427228d97f691fdd4a558b3bf",
+      "source_id": "S02"
+    }
+  ],
+  "run_id": "20261114T180019Z-264be6416905438086cbcbf0e2984266",
+  "schema_version": 1,
+  "started_at_utc": "2026-11-14T18:00:19.725553+00:00",
+  "toolkit_version": "1.0.0"
+}

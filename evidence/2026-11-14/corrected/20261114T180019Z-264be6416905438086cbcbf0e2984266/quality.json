@@ -1,0 +1,75 @@
+{
+  "accepted": 11,
+  "decision": "PASS",
+  "issues": {},
+  "max_reject_bps": 500,
+  "processing_seconds": 0.010986,
+  "reason": "WITHIN_LIMIT",
+  "records": 11,
+  "rejected": 0,
+  "rejected_percent": 0.0,
+  "sources": [
+    {
+      "accepted": 7,
+      "bytes": 323,
+      "format": "csv",
+      "records": 7,
+      "rejected": 0,
+      "sha256": "ddd8ca2ad875f91d084173aae11803fdfb8bf65b5d6138719656978be44384de",
+      "source_id": "S01"
+    },
+    {
+      "accepted": 4,
+      "bytes": 481,
+      "format": "json",
+      "records": 4,
+      "rejected": 0,
+      "sha256": "cf0688bb27a9be3aff908141f681705ff7871a8427228d97f691fdd4a558b3bf",
+      "source_id": "S02"
+    }
+  ],
+  "totals": [
+    {
+      "currency": "EUR",
+      "line_value": "9.00",
+      "lines": 1,
+      "status": "CANCELLED"
+    },
+    {
+      "currency": "EUR",
+      "line_value": "13.50",
+      "lines": 1,
+      "status": "PAID"
+    },
+    {
+      "currency": "EUR",
+      "line_value": "15.00",
+      "lines": 1,
+      "status": "PENDING"
+    },
+    {
+      "currency": "INR",
+      "line_value": "99.99",
+      "lines": 1,
+      "status": "CANCELLED"
+    },
+    {
+      "currency": "INR",
+      "line_value": "619.00",
+      "lines": 3,
+      "status": "PAID"
+    },
+    {
+      "currency": "USD",
+      "line_value": "13.59",
+      "lines": 3,
+      "status": "PAID"
+    },
+    {
+      "currency": "USD",
+      "line_value": "24.99",
+      "lines": 1,
+      "status": "PENDING"
+    }
+  ]
+}

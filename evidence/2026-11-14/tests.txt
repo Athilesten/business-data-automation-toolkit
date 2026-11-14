@@ -1,0 +1,30 @@
+Exit status: 0
+
+STDOUT
+
+STDERR
+test_bad_source_structures_defer_publication (test_toolkit.RunTests.test_bad_source_structures_defer_publication) ... ok
+test_cli_exit_codes_and_configuration (test_toolkit.RunTests.test_cli_exit_codes_and_configuration) ... ok
+test_corrected_fixture_passes (test_toolkit.RunTests.test_corrected_fixture_passes) ... ok
+test_csv_reordered_header_bom_and_multiline_positions (test_toolkit.RunTests.test_csv_reordered_header_bom_and_multiline_positions) ... ok
+test_empty_and_all_invalid_are_held (test_toolkit.RunTests.test_empty_and_all_invalid_are_held) ... ok
+test_invalid_record_cannot_claim_id (test_toolkit.RunTests.test_invalid_record_cannot_claim_id) ... ok
+test_invalid_utf8_is_a_batch_error (test_toolkit.RunTests.test_invalid_utf8_is_a_batch_error) ... ok
+test_limits_count_across_files (test_toolkit.RunTests.test_limits_count_across_files) ... ok
+test_manifest_matches_inputs_and_detects_changed_output (test_toolkit.RunTests.test_manifest_matches_inputs_and_detects_changed_output) ... ok
+test_missing_artifact_and_bad_manifest (test_toolkit.RunTests.test_missing_artifact_and_bad_manifest) ... ok
+test_mixed_fixture_reconciles_and_redacts (test_toolkit.RunTests.test_mixed_fixture_reconciles_and_redacts) ... ok
+test_parallel_retries_publish_distinct_complete_runs (test_toolkit.RunTests.test_parallel_retries_publish_distinct_complete_runs) ... ok
+test_report_failure_cleans_stage (test_toolkit.RunTests.test_report_failure_cleans_stage) ... ok
+test_same_file_twice_fails_preflight (test_toolkit.RunTests.test_same_file_twice_fails_preflight) ... ok
+test_threshold_is_inclusive_and_exact (test_toolkit.RunTests.test_threshold_is_inclusive_and_exact) ... ok
+test_formula_and_unicode_ids_rejected (test_toolkit.ValidationTests.test_formula_and_unicode_ids_rejected) ... ok
+test_missing_and_multiple_issues (test_toolkit.ValidationTests.test_missing_and_multiple_issues) ... ok
+test_money_is_independent_of_decimal_context (test_toolkit.ValidationTests.test_money_is_independent_of_decimal_context) ... ok
+test_normalization_and_exact_money (test_toolkit.ValidationTests.test_normalization_and_exact_money) ... ok
+test_numeric_boundaries (test_toolkit.ValidationTests.test_numeric_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 2.677s
+
+OK

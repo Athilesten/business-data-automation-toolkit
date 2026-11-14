@@ -1,0 +1,5 @@
+source_id,record_ref,issue_codes,issue_messages,duplicate_of_source_id,duplicate_of_record_ref
+S01,4,ORDER_DATE,Use a real calendar date in YYYY-MM-DD format.,,
+S01,7,QUANTITY|UNIT_PRICE,Use a whole number from 1 through 10000. | Use 0 through 1000000.00 with at most two decimal places.,,
+S02,1,DUPLICATE_ID,An earlier valid record already claimed this order ID.,S01,3
+S02,3,ORDER_ID,Use ORD- followed by 1 to 24 ASCII letters or digits.,,

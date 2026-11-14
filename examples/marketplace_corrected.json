@@ -1,0 +1,6 @@
+[
+  {"order_id":"ORD-A006","order_date":"2026-11-10","currency":"USD","status":"paid","quantity":1,"unit_price":10.25},
+  {"order_id":"ORD-A007","order_date":"2026-11-10","currency":"EUR","status":"paid","quantity":1,"unit_price":"13.50"},
+  {"order_id":"ORD-A009","order_date":"2026-11-10","currency":"EUR","status":"pending","quantity":3,"unit_price":5},
+  {"order_id":"ORD-A010","order_date":"2026-11-10","currency":"INR","status":"cancelled","quantity":1,"unit_price":99.99}
+]

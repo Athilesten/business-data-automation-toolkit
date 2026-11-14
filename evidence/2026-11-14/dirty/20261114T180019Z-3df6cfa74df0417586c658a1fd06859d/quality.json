@@ -1,0 +1,75 @@
+{
+  "accepted": 8,
+  "decision": "HOLD",
+  "issues": {
+    "DUPLICATE_ID": 1,
+    "ORDER_DATE": 1,
+    "ORDER_ID": 1,
+    "QUANTITY": 1,
+    "UNIT_PRICE": 1
+  },
+  "max_reject_bps": 500,
+  "processing_seconds": 0.011105,
+  "reason": "REJECT_RATE_EXCEEDED",
+  "records": 12,
+  "rejected": 4,
+  "rejected_percent": 33.3333,
+  "sources": [
+    {
+      "accepted": 5,
+      "bytes": 324,
+      "format": "csv",
+      "records": 7,
+      "rejected": 2,
+      "sha256": "21c8b270c11d699fc2b1f8568345ddaf26779235a33d9a36adb6d03ed7dcf87c",
+      "source_id": "S01"
+    },
+    {
+      "accepted": 3,
+      "bytes": 611,
+      "format": "json",
+      "records": 5,
+      "rejected": 2,
+      "sha256": "75b58479f506459c5a1b6570c6a6b84990e84043059df8ab0176c60fdc813207",
+      "source_id": "S02"
+    }
+  ],
+  "totals": [
+    {
+      "currency": "EUR",
+      "line_value": "9.00",
+      "lines": 1,
+      "status": "CANCELLED"
+    },
+    {
+      "currency": "EUR",
+      "line_value": "15.00",
+      "lines": 1,
+      "status": "PENDING"
+    },
+    {
+      "currency": "INR",
+      "line_value": "99.99",
+      "lines": 1,
+      "status": "CANCELLED"
+    },
+    {
+      "currency": "INR",
+      "line_value": "419.00",
+      "lines": 2,
+      "status": "PAID"
+    },
+    {
+      "currency": "USD",
+      "line_value": "10.45",
+      "lines": 2,
+      "status": "PAID"
+    },
+    {
+      "currency": "USD",
+      "line_value": "24.99",
+      "lines": 1,
+      "status": "PENDING"
+    }
+  ]
+}

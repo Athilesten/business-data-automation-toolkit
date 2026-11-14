@@ -1,0 +1,6 @@
+Exit status: 0
+
+STDOUT
+Artifact checksums verified.
+
+STDERR

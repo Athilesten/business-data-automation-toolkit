@@ -1,0 +1,8 @@
+Exit status: 3
+
+STDOUT
+HOLD (REJECT_RATE_EXCEEDED) | accepted=8 | rejected=4 | D:\Project 1 Business Data Automation Toolkit\evidence\2026-11-14\dirty\20261114T180019Z-3df6cfa74df0417586c658a1fd06859d
+
+STDERR
+2026-11-14 23:30:19,017 INFO source=S01 records=7 accepted=5 rejected=2
+2026-11-14 23:30:19,019 INFO source=S02 records=5 accepted=3 rejected=2

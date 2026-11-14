@@ -1,0 +1,4 @@
+examples/** -text
+evidence/**/accepted.csv -text
+evidence/**/exceptions.csv -text
+evidence/**/quality.json -text

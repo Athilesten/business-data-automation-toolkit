@@ -1,0 +1,8 @@
+Exit status: 0
+
+STDOUT
+PASS (WITHIN_LIMIT) | accepted=11 | rejected=0 | D:\Project 1 Business Data Automation Toolkit\evidence\2026-11-14\corrected\20261114T180019Z-264be6416905438086cbcbf0e2984266
+
+STDERR
+2026-11-14 23:30:19,735 INFO source=S01 records=7 accepted=7 rejected=0
+2026-11-14 23:30:19,738 INFO source=S02 records=4 accepted=4 rejected=0

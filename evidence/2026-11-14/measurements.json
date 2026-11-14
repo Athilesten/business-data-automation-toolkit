@@ -1,0 +1,69 @@
+{
+  "environment": {
+    "python": "3.14.6",
+    "os": "Windows",
+    "machine": "AMD64"
+  },
+  "fixture_comparison": {
+    "dirty": {
+      "decision": "HOLD",
+      "records": 12,
+      "accepted": 8,
+      "rejected": 4,
+      "rejected_percent": 33.3333,
+      "bundle": "dirty/20261114T180019Z-3df6cfa74df0417586c658a1fd06859d"
+    },
+    "corrected": {
+      "decision": "PASS",
+      "records": 11,
+      "accepted": 11,
+      "rejected": 0,
+      "rejected_percent": 0.0,
+      "bundle": "corrected/20261114T180019Z-264be6416905438086cbcbf0e2984266"
+    }
+  },
+  "benchmark": [
+    {
+      "records": 1000,
+      "rejected": 10,
+      "input_bytes": 37950,
+      "trials": [
+        {
+          "wall_seconds": 0.426643,
+          "processing_seconds": 0.038758
+        },
+        {
+          "wall_seconds": 0.383654,
+          "processing_seconds": 0.031993
+        },
+        {
+          "wall_seconds": 0.372581,
+          "processing_seconds": 0.029416
+        }
+      ],
+      "median_wall_seconds": 0.383654,
+      "median_processing_seconds": 0.031993
+    },
+    {
+      "records": 10000,
+      "rejected": 100,
+      "input_bytes": 388951,
+      "trials": [
+        {
+          "wall_seconds": 0.619695,
+          "processing_seconds": 0.263502
+        },
+        {
+          "wall_seconds": 0.613633,
+          "processing_seconds": 0.23563
+        },
+        {
+          "wall_seconds": 0.640918,
+          "processing_seconds": 0.25872
+        }
+      ],
+      "median_wall_seconds": 0.619695,
+      "median_processing_seconds": 0.25872
+    }
+  ]
+}
